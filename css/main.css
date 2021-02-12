@@ -1,0 +1,132 @@
+/* GLOBAL ELEMENTS */
+
+.hidden{
+	display: none;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* HEADER ELEMENTS FOR EVERY PAGE */
+
+#mainHeader{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+#logo{
+	margin-right: auto;
+}
+
+#navigations{
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#socialHeader{
+	margin-left: 225px;
+}
+
+.socials{
+	width: 30px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#mainNav ul {
+	display: flex;
+	flex-direction: row;
+
+}
+
+#mainNav ul li a{
+	text-decoration: none;
+	color: #000000;
+	margin-right: 15px;
+}
+
+#mainNav ul li a:hover{
+	color: #d01f2f;
+}
+
+/* HERO SECTION HOME PAGE */
+
+#hero{
+	width: 810px;
+	height: 365px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#homeHero{
+	margin-top: 50px;
+}
+
+#homeHeroText{
+	width: 550px;
+	text-align: justify;
+}
+
+#homeMashup{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.homeBrands{
+	width: 455px;
+	height: 270px;
+	background-color: #000000;
+}
+
+.homeBrandsText{
+	width: 450px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+
+/* FOOTER CONTENT */
+
+#mainFooter{
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #1C355E;
+	display: flex;
+
+}
+
+#footerContent{
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#footerLogo{
+	height: 75px;
+	width: 100px;
+	background-color: #000000;
+	margin-right: auto;
+}
+
+.footerSocials{
+	margin-right: 15px;
+	width: 30px;
+	display: inline-block;
+}
+
+#contact{
+	margin-left: 15px;
+}
+
+
+
+
