@@ -309,7 +309,7 @@ h4{
 	margin-top: auto;
 	margin-bottom: auto;
 }
-
+ 
 .comparison{
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -380,12 +380,18 @@ h4{
 	padding-right: 10px;
 }
 
+#beerFeatures img{
+	margin-left: 40px;
+	margin-right: 35px;
+}
+
 #beerFeatures img:hover{
 	cursor: pointer;
 }
 
 .featuresHeadlines{
 	color: #1C355E;
+	text-align: center;
 
 }
 #hopText, #kegsText, #pinText, #barText{
