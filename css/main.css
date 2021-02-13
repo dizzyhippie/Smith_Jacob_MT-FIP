@@ -366,7 +366,6 @@ h4{
 }
 
 #beerFeatures{
-	size: 50%;
 	background-color: #1C355E;
 	display: flex;
 	flex-direction: row;
@@ -381,10 +380,6 @@ h4{
 	padding-right: 10px;
 }
 
-.features{
-	size: 50%;
-
-}
 
 
 												/* CONTACT PAGE */
