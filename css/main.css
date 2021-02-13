@@ -263,10 +263,32 @@ h4{
 
 												/* ABOUT PAGE */
 
+#aboutTitle{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
+#aboutIntroText{
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
 
+#aboutIntro{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
-
+#aboutImg{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: flex;
+}
 
 
 
@@ -278,7 +300,6 @@ h4{
 	display: inline-block;
 	margin-left: 22px;
 	margin-right: 20px;
-
 }
 
 #featuredProducts{
@@ -315,8 +336,72 @@ h4{
 	width: 450px;
 }
 
-
 												/* CONTACT PAGE */
+
+#contact{
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background: url('../images/contact_background.png') no-repeat;
+	width: 845px;
+	height: 400px;
+	background-color: #F2F2F2;
+}
+
+#contactTitle{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 15px;
+	color: #d01f2f;
+}
+
+#contactForm input{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid #F2F2F2;
+}
+
+#message{
+	width: 200px;
+	height: 75px;
+}
+#submit{
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	color: #d01f2f;
+	border: 1px solid;
+	border-radius: 25px;
+}
+
+#submit:hover{
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
