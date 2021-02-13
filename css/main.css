@@ -182,10 +182,74 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 }
 
+.productsButton{
+	text-decoration: none;
+	width: 150px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	letter-spacing: 0.5px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
+.productsButton:hover{
+	color: #D21E2F;
+	background-color: #fff;
+	border-radius: 25px;
+}
 
 /* FOOTER CONTENT */
 
+#mainFooter{
+	background-color: #F2F2F2;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+#footerInfo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#footerNav{
+	text-decoration: none;
+}
+
+#footerNav ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footerNav ul li a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	padding: 5px;
+}
+
+#footerNav ul li a:hover{
+	color: #fff;
+	border-radius: 25px;
+	background-color: #d01f2f;
+
+}
+
+#copyright{
+	font-family: 'Montserrat', sans-serif;
+	color: #1C355E;
+	font-size: 12px;
+}
+
+#socialFooter{
+	margin-top: auto;
+	margin-bottom: auto;
+}
 
 
 
