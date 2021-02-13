@@ -14,7 +14,7 @@ h3{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -25,7 +25,6 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
-	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 
@@ -125,6 +124,8 @@ h4{
 }
 
 #homeHeroText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 	margin: 0 auto;
 	width: 650px;
 	text-align: justify;
@@ -146,7 +147,10 @@ h4{
 }
 
 .homeBrandsText{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 	width: 450px;
+	padding-top: 10px;
 	margin: 0 auto;
 	text-align: justify;
 }
@@ -176,6 +180,7 @@ h4{
 }
 
 #productTitle{
+
 	color: #fff;
 	text-align: center;
 	padding-top: 20px;
@@ -189,7 +194,8 @@ h4{
 	color: #fff;
 	font-size: 14px;
 	font-weight: lighter;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 .productsButton{
@@ -290,12 +296,35 @@ h4{
 	display: flex;
 }
 
+#beforeComp{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#arrowIcon{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.comparison{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
 
 
 
 
 												/* PRODUCTS PAGE */
+
 /* FEATURED PRODUCTS */
+
 .featured{
 	display: inline-block;
 	margin-left: 22px;
@@ -336,6 +365,28 @@ h4{
 	width: 450px;
 }
 
+#beerFeatures{
+	size: 50%;
+	background-color: #1C355E;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#beerFeatures section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.features{
+	size: 50%;
+
+}
+
+
 												/* CONTACT PAGE */
 
 #contact{
@@ -370,6 +421,7 @@ h4{
 	width: 200px;
 	height: 75px;
 }
+
 #submit{
 	font-family: 'Montserrat', sans-serif;
 	display: block;
