@@ -396,7 +396,15 @@ h4{
 	width: 200px;
 	color: #1C355E;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;}
+	font-size: 14px;
+}
+
+#clickHeader{
+	text-align: center;
+	background-color: #F2F2F2;
+	margin-bottom: 50px;
+	padding-bottom: 25px;
+}
 
 
 
