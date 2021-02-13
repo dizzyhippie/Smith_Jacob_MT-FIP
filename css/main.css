@@ -4,11 +4,46 @@
 	display: none;
 }
 
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+h3{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
 #container{
 	width: 960px;
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.homeButton{
+	text-decoration: none;
+	width: 150px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #D21E2F;
+	letter-spacing: 0.5px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.homeButton:hover{
+	color: #fff;
+	background-color: #D21E2F;
+	border-radius: 25px;
 }
 
 /* HEADER ELEMENTS FOR EVERY PAGE */
@@ -47,22 +82,32 @@
 }
 
 #mainNav ul li a{
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	color: #000000;
-	margin-right: 15px;
+	margin-right: 5px;
+	padding: 10px;
 }
 
 #mainNav ul li a:hover{
-	color: #d01f2f;
+	color: #fff;
+	border-radius: 25px;
+	background-color: #d01f2f;
+
 }
 
 /* HERO SECTION HOME PAGE */
 
-#hero{
-	width: 810px;
-	height: 365px;
-	background-color: #000000;
+#heroTitle{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#heroImage{
+	display: flex;
 	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 #homeHero{
@@ -70,15 +115,18 @@
 }
 
 #homeHeroText{
-	width: 550px;
+	margin: 0 auto;
+	width: 650px;
 	text-align: justify;
 }
+
+/* MASHUP SECTION HOME PAGE */
 
 #homeMashup{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 .homeBrands{
@@ -93,39 +141,51 @@
 	text-align: justify;
 }
 
+/* OUR PRODUCTS HOME PAGE */
+
+#ourProducts{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #1C355E;
+}
+
+.productBox{
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 32px;
+	margin-left: 40px;
+
+}
+
+.products{
+	width: 140px;
+	border-radius: 100px;
+}
+
+#productTitle{
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.productText{
+	text-align: center;
+	width: 165px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 
 /* FOOTER CONTENT */
 
-#mainFooter{
-	margin-top: 25px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	background-color: #1C355E;
-	display: flex;
-
-}
-
-#footerContent{
-	justify-content: space-between;
-	margin: 0 auto;
-}
-
-#footerLogo{
-	height: 75px;
-	width: 100px;
-	background-color: #000000;
-	margin-right: auto;
-}
-
-.footerSocials{
-	margin-right: 15px;
-	width: 30px;
-	display: inline-block;
-}
-
-#contact{
-	margin-left: 15px;
-}
 
 
 
